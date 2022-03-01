@@ -1,6 +1,7 @@
 default_region            = "us-east-1"
 docker_username           = "ismashal"
 github_username           = "ismashal"
-github_project_name       = "node-aws-fargate-terraform"
+github_project_name       = "ContainerizedApplication"
+github_token			  = "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"
 app_name                  = "node-aws-fargate-app"
 environment               = "staging"

@@ -1,7 +1,6 @@
 # Containerized Application using Terraform
 
-![Alt text](image.png?raw=true "Title")
-
+![Alt text](image-ecs.png?raw=true "ECS")
 
 
 <br />

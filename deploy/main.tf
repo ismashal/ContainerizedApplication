@@ -4,9 +4,9 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "node-app-tf-state"
+    bucket = "serverlessapplicationstatefile"
     key    = "terraform.tfstate"
-    region = var.default_region
+    region = "us-east-1"
   }
 
   required_version = ">= 0.12"
