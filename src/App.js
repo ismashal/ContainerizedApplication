@@ -14,7 +14,7 @@ function App() {
     let number = parseInt(num);
     setErr('');
     if (number < 0 || true == isNaN(num) ) {
-        setErr('Invali Number'); setFact(0);
+        setErr('Invalid Number'); setFact(0);
         return;
     }
     
