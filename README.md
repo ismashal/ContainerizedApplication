@@ -65,14 +65,20 @@ Make sure you have a bucket named **serverlessapplicationstatefile** in **us-eas
 
 Once the setup is complete run the below commands in the downloaded folder:
 ```
+$ cd deploy
+
 $ terraform init
 
 $ terraform apply -auto-approve
 ```
+Output : aws_lb_dns_name
 
 <br />
 
 
 ## Testing
+
+
+
 
 <br />
