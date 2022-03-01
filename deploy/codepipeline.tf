@@ -25,7 +25,7 @@ resource "aws_codepipeline" "node_express_ecs_codepipeline" {
       configuration = {
         Owner      = var.github_username
         Repo       = var.github_project_name
-        Branch     = "master"
+        Branch     = "main"
         OAuthToken = var.github_token
       }
     }
