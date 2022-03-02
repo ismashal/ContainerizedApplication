@@ -1,8 +1,7 @@
 version: 0.2
 
 env:
-  secrets-manager:
-    LOCAL_DOCKER_HUB_ACCESS_TOKEN: "DockerHubAccessToken:9f327b3b-9bee-4988-a548-cc7df9740e20"
+  LOCAL_DOCKER_HUB_ACCESS_TOKEN: "9f327b3b-9bee-4988-a548-cc7df9740e20"
     
 phases:
   pre_build:
