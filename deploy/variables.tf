@@ -12,4 +12,3 @@ variable "default_region" {}
 
 variable "docker_username" {}
 
-variable "docker_hub_token" {}
