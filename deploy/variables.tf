@@ -11,3 +11,4 @@ variable "environment" {}
 variable "default_region" {}
 
 variable "docker_username" {}
+
